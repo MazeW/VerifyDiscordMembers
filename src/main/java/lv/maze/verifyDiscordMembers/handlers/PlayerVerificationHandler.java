@@ -56,7 +56,7 @@ public class PlayerVerificationHandler {
         }
     }
 
-    private String formatMessage(String key, String username) {
+    public String formatMessage(String key, String username) {
         String message = plugin.getConfig().getString(key);
         if (message == null) {
             plugin.getLogger().info("The key " + key + " was not found in the configuration file, returned as empty.");
