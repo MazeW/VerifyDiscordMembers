@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VerifyDiscordMembers:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VerifyDiscordMembers_jar</output-path>
+    <root id="archive" name="VerifyDiscordMembers.jar">
+      <element id="module-output" name="VerifyDiscordMembers" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/EssentialsX-2.20.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/EssentialsXDiscordLink-2.20.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

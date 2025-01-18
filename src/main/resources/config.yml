@@ -1,0 +1,16 @@
+# Default configuration for DiscordLinkPlugin
+
+# Messages, placeholder for player name is {player} and you can use "&" to use colours in the chat
+messages:
+  linked-success: "&2Your discord account has been successfully linked! &lEnjoy our server, &d{player}"
+  teleported-online: "&5Let's get your out of here!"
+  teleported-onJoin: "&3&lWelcome back! &r&While you were gone, I took the liberty of sending you back to spawn!"
+
+# Commands to run after successful account link.
+# Note that for some commands like teleportation won't work if the player verifies their account while offline
+commands:
+  - "lp user {player} group add gamer"
+  - "give {player} apple 1"
+
+# Teleport to spawn after successful account link? If the player is offline their teleportation will be queued
+teleport-to-spawn: true

@@ -1,0 +1,10 @@
+name: VerifyDiscordMembers
+version: 1.0
+main: lv.maze.verifyDiscordMembers.VerifyDiscordMembers
+api-version: 1.20
+depend: [EssentialsDiscordLink]
+commands:
+  reload:
+    description: Reload the VerifyDiscordMembers configuration file.
+    usage: "/reload to reload the VerifyDiscordMembers config file"
+    permission: VerifyDiscordMembers.reload
